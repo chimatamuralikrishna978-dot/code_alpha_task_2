@@ -491,19 +491,6 @@ body {
 .modal-stat-num { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 700; }
 .modal-stat-label { font-size: 12px; color: var(--text3); }
 
-.modal-follow-btn {
-  width: 100%;
-  padding: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  border: none; color: white;
-  border-radius: 12px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px; font-weight: 600;
-  cursor: pointer;
-  transition: opacity 0.2s;
-}
-.modal-follow-btn:hover { opacity: 0.9; }
-
 /* ===== PROFILE MODAL EXTRAS ===== */
 .modal-meta-row {
   display: flex; flex-wrap: wrap; gap: 12px;
@@ -967,17 +954,10 @@ body {
   gap: 16px;
 }
 .settings-row:last-child { border-bottom: none; }
-.settings-row-label { font-size: 14px; font-weight: 500; }
-.settings-row-desc  { font-size: 12px; color: var(--text3); margin-top: 2px; }
 .settings-divider   { height: 1px; background: var(--border); margin: 4px 0; }
 
-.settings-action-btn {
-  background: var(--surface2); border: 1px solid var(--border);
-  color: var(--text2); padding: 7px 16px; border-radius: 8px;
-  font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500;
-  cursor: pointer; white-space: nowrap; flex-shrink: 0; transition: all 0.2s;
-}
-.settings-action-btn:hover { border-color: var(--accent); color: var(--text); }
+
+
 .settings-action-btn.danger { color: #fc5c5c; border-color: rgba(252,92,92,0.3); }
 .settings-action-btn.danger:hover { background: rgba(252,92,92,0.08); border-color: #fc5c5c; }
 
@@ -1018,12 +998,7 @@ body {
 .font-size-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
 
 /* Settings select */
-.settings-select {
-  background: var(--surface2); border: 1px solid var(--border);
-  color: var(--text); padding: 7px 12px; border-radius: 8px;
-  font-family: 'DM Sans', sans-serif; font-size: 13.5px;
-  cursor: pointer; outline: none; flex-shrink: 0;
-}
+
 .settings-select:focus { border-color: var(--accent); }
 
 /* kbd tag */
